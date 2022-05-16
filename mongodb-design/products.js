@@ -1,6 +1,7 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
-var products = new Schema({
+
+module.exports.productsSchema = new Schema({
   name: { type: String },
   thumbnail: { type: String },
   short_description: { type: String },
@@ -23,3 +24,5 @@ var products = new Schema({
   created_at: { type: Date },
   updated_at: { type: Date },
 });
+
+
