@@ -1,0 +1,2 @@
+
+var mongoose = require('mongoose');var Schema = mongoose.Schema;var product_combinations = new Schema({combination_string: {type: String},sku: {type: String},price: {type: Number},product_id: {type: Schema.Types.ObjectId},stock: {type: Number},images: [{type: String}],created_at: {type: Date},updated_at: {type: Date}}); 

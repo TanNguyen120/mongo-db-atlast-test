@@ -1,0 +1,2 @@
+
+var mongoose = require('mongoose');var Schema = mongoose.Schema;var categories = new Schema({category_name: {type: String},icon: {type: String},ancestor_category: {type: Schema.Types.ObjectId},properties: [{type: String}],product_variations: [{type: String}],created_at: {type: Date},updated_at: {type: Date}}); 

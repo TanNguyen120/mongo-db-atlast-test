@@ -1,0 +1,2 @@
+
+var mongoose = require('mongoose');var Schema = mongoose.Schema;var discounts = new Schema({name: {type: String},description: {type: String},discount_percent: {type: Number},is_active: {type: Boolean},created_at: {type: Date},updated_at: {type: Date}}); 

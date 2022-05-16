@@ -1,0 +1,2 @@
+
+var mongoose = require('mongoose');var Schema = mongoose.Schema;var comments = new Schema({user_id: {type: Number},product_id: {type: Schema.Types.ObjectId},content: {type: String},created_at: {type: Date},updated_at: {type: Date}}); 

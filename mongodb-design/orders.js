@@ -1,0 +1,3 @@
+
+var mongoose = require('mongoose');var Schema = mongoose.Schema;var orders = new Schema({user_id: {type: Number},total: {type: Number},payment_detail_id: {type: Number},shipper_id: {type: Schema.Types.ObjectId},ship_date: {type: Date},receiver_address: {type: String},receiver_name: {type: String},receiver_phone: {type: String},status: {type: String},items: [{
+product_id: {type: Schema.Types.ObjectId},quantity: {type: Number},price: {type: Number},discount_id: {type: Schema.Types.ObjectId},total: {type: Number}}],created_at: {type: Date},updated_at: {type: Date}}); 
